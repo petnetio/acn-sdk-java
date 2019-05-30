@@ -9,7 +9,13 @@
     </Appenders>
     <Loggers>
         <Logger 
-                name="com.arrow.acn.client.RabbitLoadTest" 
+                name="com.arrow.acn.client.RabbitLoadTestConsumer"
+                level="INFO"
+                additivity="false">
+            <AppenderRef ref="Console" />
+        </Logger>
+        <Logger
+                name="com.arrow.acn.client.RabbitLoadTest"
                 level="INFO"
                 additivity="false">
             <AppenderRef ref="Console" />
