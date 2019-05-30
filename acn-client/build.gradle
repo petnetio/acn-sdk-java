@@ -38,7 +38,8 @@ dependencies {
    
     testCompile("junit:junit:4.+")
     testCompile("org.apache.commons:commons-lang3:3.8.1")    
-
+    testCompile("com.rabbitmq:amqp-client:5.6.0")
+    testCompile("org.springframework.amqp:spring-rabbit:2.0.1.RELEASE")
     compile group: 'org.apache.logging.log4j', name: 'log4j-jul', version: '2.11.1'    
     
     compile fileTree(dir: '../lib', include: '*.jar')    
