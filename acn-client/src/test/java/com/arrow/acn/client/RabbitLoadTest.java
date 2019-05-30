@@ -52,7 +52,7 @@ import com.arrow.acs.client.model.PagingResultModel;
 
 public class RabbitLoadTest extends Loggable {
 
-	private static class Config {
+	public static class Config {
 		public String apiUrl;
 		public String mqttUrl;
 		public String appHid;
